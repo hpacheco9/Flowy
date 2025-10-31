@@ -13,7 +13,7 @@ enum HomeEndpoint: Endpointable {
     
     var path: String {
         switch self {
-            case .data(id: let id):
+            case .data:
             return "users/"
         }
     }

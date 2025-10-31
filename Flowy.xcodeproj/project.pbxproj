@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		6F63B5C22EB5152100D79280 /* BoilerPlate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoilerPlate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F63B5C22EB5152100D79280 /* Flowy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flowy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		6F63B5C42EB5152100D79280 /* BoilerPlate */ = {
+		6F63B5C42EB5152100D79280 /* Flowy */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = BoilerPlate;
+			path = Flowy;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +32,7 @@
 		6F63B5B92EB5152100D79280 = {
 			isa = PBXGroup;
 			children = (
-				6F63B5C42EB5152100D79280 /* BoilerPlate */,
+				6F63B5C42EB5152100D79280 /* Flowy */,
 				6F63B5C32EB5152100D79280 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,7 +40,7 @@
 		6F63B5C32EB5152100D79280 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6F63B5C22EB5152100D79280 /* BoilerPlate.app */,
+				6F63B5C22EB5152100D79280 /* Flowy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6F63B5C12EB5152100D79280 /* BoilerPlate */ = {
+		6F63B5C12EB5152100D79280 /* Flowy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6F63B5CF2EB5152400D79280 /* Build configuration list for PBXNativeTarget "BoilerPlate" */;
+			buildConfigurationList = 6F63B5CF2EB5152400D79280 /* Build configuration list for PBXNativeTarget "Flowy" */;
 			buildPhases = (
 				6F63B5BE2EB5152100D79280 /* Sources */,
 				6F63B5BF2EB5152100D79280 /* Frameworks */,
@@ -61,13 +61,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				6F63B5C42EB5152100D79280 /* BoilerPlate */,
+				6F63B5C42EB5152100D79280 /* Flowy */,
 			);
-			name = BoilerPlate;
+			name = Flowy;
 			packageProductDependencies = (
 			);
 			productName = BoilerPlate;
-			productReference = 6F63B5C22EB5152100D79280 /* BoilerPlate.app */;
+			productReference = 6F63B5C22EB5152100D79280 /* Flowy.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6F63B5BD2EB5152100D79280 /* Build configuration list for PBXProject "BoilerPlate" */;
+			buildConfigurationList = 6F63B5BD2EB5152100D79280 /* Build configuration list for PBXProject "Flowy" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6F63B5C12EB5152100D79280 /* BoilerPlate */,
+				6F63B5C12EB5152100D79280 /* Flowy */,
 			);
 		};
 /* End PBXProject section */
@@ -313,7 +313,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6F63B5BD2EB5152100D79280 /* Build configuration list for PBXProject "BoilerPlate" */ = {
+		6F63B5BD2EB5152100D79280 /* Build configuration list for PBXProject "Flowy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6F63B5CD2EB5152400D79280 /* Debug */,
@@ -322,7 +322,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6F63B5CF2EB5152400D79280 /* Build configuration list for PBXNativeTarget "BoilerPlate" */ = {
+		6F63B5CF2EB5152400D79280 /* Build configuration list for PBXNativeTarget "Flowy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6F63B5D02EB5152400D79280 /* Debug */,
