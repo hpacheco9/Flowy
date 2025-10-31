@@ -20,6 +20,9 @@ struct HomeCoordinatorView: View {
                 .sheet(item: $coordinator.sheet) { sheet in
                     coordinator.build(sheet: sheet)
                 }
+                .fullScreenCover(item: $coordinator.fullScreenCover) { view in
+                    coordinator.build(fullScreenCover: view)
+                }
         }
     }
 }

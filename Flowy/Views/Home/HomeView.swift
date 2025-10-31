@@ -8,8 +8,26 @@
 import SwiftUI
 
 struct HomeView: View {
+    
+    @EnvironmentObject var coordinator: Coordinator
+    
     var body: some View {
-        Text("Home")
+        VStack{
+            
+        }
+        .navigationTitle("Olá, Henrique!")
+        .toolbar{
+            ToolbarItem(placement: .navigationBarTrailing){
+                Button(action:{
+                    coordinator.present(fullScreenCover: .transaction(coordinator: coordinator))
+                } ,label: {
+                    
+                    Image(systemName: "plus")
+                        .resizable()
+                        .scaledToFit()
+                })
+            }
+        }
     }
 }
 

@@ -6,3 +6,12 @@
 //
 
 import Foundation
+import SwiftUI
+
+
+struct Category: Identifiable {
+    let id = UUID()
+    let icon: String
+    let color: Color
+    let title: String
+}

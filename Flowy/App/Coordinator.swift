@@ -26,12 +26,23 @@ enum Sheet: String, Identifiable {
     }
 }
 
-enum FullScreenCover: String, Identifiable {
+enum FullScreenCover: Identifiable, Hashable, Equatable {
     
-    case home, settings
+    static func == (lhs: FullScreenCover, rhs: FullScreenCover) -> Bool {
+        lhs.id == rhs.id
+    }
+    
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(id)
+    }
+    
+    case transaction(coordinator: Coordinator)
     
     var id : String {
-        self.rawValue
+        switch self {
+        case .transaction:
+            return "/transaction"
+        }
     }
 }
 
@@ -98,14 +109,9 @@ class Coordinator: ObservableObject {
     @ViewBuilder
     func build(fullScreenCover: FullScreenCover) -> some View {
         switch fullScreenCover {
-        case .home:
+        case .transaction(let coordinator):
             NavigationStack {
-                HomeView()
-            }
-            
-        case .settings:
-            NavigationStack {
-                SettingsView()
+                AddTransactionView(coordinator: coordinator)
             }
         }
     }
